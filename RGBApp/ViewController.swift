@@ -63,8 +63,6 @@ class ViewController: UIViewController {
         
         redValueLabel.text = String(format:"%.2f", redSlider.value)
         
-        let _ = CGFloat(redSlider.value)
-        
         rgbView.backgroundColor = UIColor(
             red: CGFloat(redSlider.value),
             green: CGFloat(greenSlider.value),
@@ -77,8 +75,6 @@ class ViewController: UIViewController {
         
         greenValueLabel.text = String(format:"%.2f", greenSlider.value)
         
-        let _ = CGFloat(greenSlider.value)
-        
         rgbView.backgroundColor = UIColor(
             red: CGFloat(redSlider.value),
             green: CGFloat(greenSlider.value),
@@ -90,8 +86,6 @@ class ViewController: UIViewController {
     @IBAction func blueSliderAction() {
         
         blueValueLabel.text = String(format:"%.2f", blueSlider.value)
-        
-        let _ = CGFloat(blueSlider.value)
         
         rgbView.backgroundColor = UIColor(
             red: CGFloat(redSlider.value),
